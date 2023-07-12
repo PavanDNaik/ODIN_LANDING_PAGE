@@ -15,7 +15,7 @@ body {
     padding-top: 30px;
     padding-bottom: 80px;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     vertical-align: top;
 }
 
@@ -105,10 +105,10 @@ h1 {
 .subContainer3 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     color: rgb(71, 68, 68);
     align-items: center;
-    width: 150;
+    width: 100%;
 }
 .section2 {
     display: flex;
@@ -127,8 +127,8 @@ h1 {
 .container3 {
     display: flex;
     justify-content: center;
-    gap: 25px;
-    width: 200px;
+    gap: 60px;
+    width: 60%;
 }
 
 
@@ -137,6 +137,7 @@ h1 {
     height: 150px;
     width: 150px;
     border-radius: 12px;
+    flex: 1 1 auto;
 }
 
 .info {
@@ -189,7 +190,7 @@ h1 {
 .bluebar{
     background-color: #3882f6;
     border-radius: 12px;
-    width: 800px;
+    width: 70%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
